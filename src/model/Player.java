@@ -1,7 +1,6 @@
 package model;
 /*
- *
- * @author: Théo FIDRY
+ * @author: Tho FIDRY
  * @author: fidry@ece.fr
  */
 
@@ -19,14 +18,20 @@ public class Player {
     /** Score of the player. */
     private int score = 0;
 
+    /** List of the moves the player will play next */
     private ArrayList<Move> moves = new ArrayList<Move>();
 
+    /**
+     * Set the name of the player.
+     *
+     * @param name name of the player
+     */
     public Player(String name) {
         if (!name.isEmpty()) { this.name = name; }
     }
 
     /**
-     * Instanciate this class.<br />
+     * Instantiate this class.<br />
      * <br />
      * The name of the player will be "Unknown Player".
      */

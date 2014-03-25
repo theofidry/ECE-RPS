@@ -1,7 +1,6 @@
 package model.game;
 /*
- *
- * @author: Théo FIDRY
+ * @author: Theo FIDRY
  * @author: fidry@ece.fr
  */
 
